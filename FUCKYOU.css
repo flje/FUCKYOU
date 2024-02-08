@@ -36,18 +36,19 @@
     --Font: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif ;
 }
 
-.wordmarkWindows-2dq6rw svg {
-display: none;
+.wordmark__0d178.wordmarkWindows__05c46 {
+  width: auto;
+  height: var(--window-title-bar);
+  padding: 0 0 0 4px;
+  line-height: var(--window-title-bar);
+  font-size: 0.9em;
+  color: var(--text-normal);
 }
-.wordmarkWindows-2dq6rw::after {
-content: 'wbe';
-display: block;
-position: relative;
-width: 200px;
-height: 16px;
-line-height: 16px;
-font-family: var(--font-headline);
-font-size: 11px;
-font-weight: 600;
-color: var(--muted-text);
+.wordmark__0d178.wordmarkWindows__05c46:before, .wordmark__0d178.wordmarkWindows__05c46:after {
+  position: relative;
+  width: auto;
+  height: 22px;
 }
+.wordmark__0d178.wordmarkWindows__05c46:before {
+  content: "wbe";
+  font-weight: 700;
